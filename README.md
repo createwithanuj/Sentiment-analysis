@@ -103,5 +103,32 @@ The **Sentiment 140** dataset is loaded into a **Pandas DataFrame** for explorat
 ### Clone the repository:
 ```bash
 git clone https://github.com/yativarshney/Sentiment-analysis
+```
 
+### Run the notebook step by step to:
+- Preprocess the dataset
+- Train each of the 8 classifiers
+- Compare the accuracy and performance of the models
+
+---
+
+## Results
+The project compares **8 different classifiers** and evaluates them based on **accuracy**, **precision**, **recall**, and **F1 score**. Some key insights:
+
+- **Logistic Regression** and **SVM** perform consistently well on text classification tasks.
+- **XGBoost** and **Gradient Boosting** provide the best results with fine-tuned hyperparameters.
+- **Naive Bayes** shows rapid computation but lower accuracy compared to other models.
+- **Random Forest** offers good performance for larger datasets with minimal overfitting.
+
+---
+
+## Future Enhancements
+- **Hyperparameter Optimization**: Use **GridSearch** or **RandomSearch** to improve the model further.
+- **Deep Learning Approaches**: Implement **LSTMs** or transformers (like **BERT**) for improved text understanding.
+- **Additional Features**: Incorporate more NLP features like **sentiment intensity**, **named entities**, or **Part-of-Speech (POS) tagging** for better context understanding.
+
+---
+
+## Conclusion
+This project showcases how a combination of different classifiers can be used to tackle sentiment analysis tasks effectively. By comparing model performance and fine-tuning hyperparameters, the project provides valuable insights into the strengths and weaknesses of various machine learning algorithms in the domain of sentiment analysis.
 
